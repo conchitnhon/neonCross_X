@@ -5,6 +5,7 @@ const conten = document.querySelector('.conten');
 
 
 img.onclick = () => {
+    img.style.display = 'none';
     loading.classList.add('loading--active');
     setTimeout(() => {
         loading.classList.remove('loading--active');
@@ -13,6 +14,7 @@ img.onclick = () => {
 }
 
 conten.onclick = () => {
+    img.style.display = 'block';
     loading.classList.remove('loading--active');
     section.classList.remove('section--active');
 }
