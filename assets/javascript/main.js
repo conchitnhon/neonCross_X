@@ -10,10 +10,10 @@ img.onclick = () => {
     setTimeout(() => {
         loading.classList.remove('loading--active');
         section.classList.add('section--active');
-    }, 3000)
+    }, 2000)
 }
 
-conten.onclick = () => {
+section.onclick = () => {
     img.style.display = 'block';
     loading.classList.remove('loading--active');
     section.classList.remove('section--active');
